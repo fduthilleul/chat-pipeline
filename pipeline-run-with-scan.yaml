@@ -7,7 +7,7 @@ spec:
     - name: "github-repo-revision"
       value: "main"
     - name: "github-repo-url"
-      value: "https://github.com/shaneboulden/chat-client.git"
+      value: "https://github.com/fduthilleul/chat-pipeline.git"
     - name: "context-dir"
       value: "/"
     - name: "image-name"
@@ -17,7 +17,7 @@ spec:
     - name: "acs-image"
       value: "quay.io/smileyfritz/chat-client:latest"
     - name: "acs-scan-api"
-      value: "central-acs-central.apps.lab8.openshift.blueradish.net"
+      value: "central-stackrox.apps.cluster-9rt8p.9rt8p.sandbox668.opentlc.com"
   pipelineRef:
     name: build-scan-and-deploy
   podTemplate:
