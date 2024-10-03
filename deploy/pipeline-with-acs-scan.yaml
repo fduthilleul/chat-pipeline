@@ -52,7 +52,7 @@ spec:
       name: build-and-scan
     params:
       - name: IMAGE
-        value: 'quay.io/smileyfritz/chat-client'
+        value: 'quay.io/fduthill/chat-client'
       - name: CONTEXT
         value: '.'
       - name: TLSVERIFY
