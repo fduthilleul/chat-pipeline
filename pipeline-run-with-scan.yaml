@@ -11,11 +11,11 @@ spec:
     - name: "context-dir"
       value: "/"
     - name: "image-name"
-      value: "quay.io/smileyfritz/chat-client:latest"
+      value: "quay.io/fduthill/chat-client:latest"
     - name: "is-name"
       value: "chat-client"
     - name: "acs-image"
-      value: "quay.io/smileyfritz/chat-client:latest"
+      value: "quay.io/fduthill/chat-client:latest"
     - name: "acs-scan-api"
       value: "central-stackrox.apps.cluster-9rt8p.9rt8p.sandbox668.opentlc.com"
   pipelineRef:
