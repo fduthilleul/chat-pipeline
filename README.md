@@ -5,6 +5,13 @@
 ```
 git clone https://github.com/fduthilleul/chat-pipeline.git
 ```
+## Create a project acs-pipeline-demo and enter the project
+```
+oc create ns acs-pipeline-demo
+```
+```
+oc project ns acs-pipeline-demo
+```
 ## Create a K8s secret with your Quay credentials
 ```
 podman login quay.io
