@@ -1,5 +1,11 @@
 # Demo Steps
 
+## Clone this demo to your local environment
+
+```
+git clone https://github.com/fduthilleul/chat-pipeline.git
+```
+
 ```
 podman login quay.io
 ```
