@@ -30,13 +30,13 @@ oc create -f .
 ```
 ## Add role and SCC to Service Account
 ```
-oc adm policy add-role-to-user isview -z pipeline-svc --role-namespace=<your-namespace> -n <your-namespace>
+oc adm policy add-role-to-user isview -z pipeline-svc --role-namespace=<your-namespace>
 ```
 
 ```
 oc adm policy add-scc-to-user privileged -z pipeline-svc
 ```
-## TBA
+## Create the pipeline run
 ```
 oc create -f pipeline-run-with-scan.yaml
 ```
