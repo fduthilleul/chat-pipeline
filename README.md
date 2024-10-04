@@ -30,7 +30,7 @@ oc create -f .
 ```
 ## Add role and SCC to Service Account
 ```
-oc adm policy add-role-to-user isview -z pipeline-svc --role-namespace=dso-pipeline -n dso-pipeline
+oc adm policy add-role-to-user isview -z pipeline-svc --role-namespace=dso-pipeline -n <your-namespace>
 ```
 
 ```
