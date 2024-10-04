@@ -26,7 +26,7 @@ oc create secret generic acstoken --from-literal=token=<add-your-api-token>
 ```
 ## Create the artifacts
 ```
-oc create -f deploy .
+oc create -f .
 ```
 ## Add role and SCC to Service Account
 ```
