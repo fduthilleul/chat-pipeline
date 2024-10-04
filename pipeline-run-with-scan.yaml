@@ -7,7 +7,7 @@ spec:
     - name: "github-repo-revision"
       value: "main"
     - name: "github-repo-url"
-      value: "https://github.com/fduthilleul/chat-pipeline.git"
+      value: "https://github.com/fduthilleul/chat-client.git"
     - name: "context-dir"
       value: "/"
     - name: "image-name"
